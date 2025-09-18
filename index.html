@@ -33,7 +33,7 @@
     <section class="hero-page">
         <!---------------- lOGO + MENU DE NAVEGAÇÃO ----------------->
         <nav class="navbar navbar-expand-lg">
-            <div class="container px-5 mt-4">
+            <div class="container-fluid px-5 mt-4">
                 <h1><a class="navbar-brand" href="#">TheGa<i class="bi bi-controller"></i>es</a></h1>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -43,7 +43,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Quero Comprar</a>
+                            <a class="nav-link" href="#comprar">Quero Comprar</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Games</a>
@@ -76,16 +76,32 @@
             <source src="./videos/hero.mp4" type="video/mp4">
         </video>
 
-        <div class="text-center text-light">
-            <h3>
-                Somos a maior e a melhor loja de games do Brasil!
+        <div class="cta text-center text-light">
+            <h3 class="display-4 w-75 mx-auto">
+                Somos a maior e a melhor <span class="color-blue-300">loja</span> de 
+                <span class="color-purple-400">games</span>  do Brasil!
             </h3>
+
+            <!-- links no formato de botões -->
+             <div class="cta-btn-group">
+                <div class="btn-link">
+                    <a href="">+ Informações</a>
+                </div>
+                <div class="btn-link">
+                    <a href="">Criar Conta</a>
+                </div>
+             </div>
         </div>
-
-
-
-
+        <!-- fim do cta -->
     </section>
+    <!-- fim hero-page -->
+
+
+    <!-------------------------- Quero Comprar -------------------------->
+    <section class="container-fluid comprar" id="comprar">
+        <h1 class="text-light">Comprar</h1>
+    </section>
+    <!------------------------ Fim Quero Comprar ------------------------>
 
 
 
